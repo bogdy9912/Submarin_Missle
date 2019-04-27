@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\script.cs" />
+    <Compile Include="Assets\Scripts\Start_.cs" />
     <Compile Include="Assets\Scripts\TouchPlayerController.cs" />
+    <Compile Include="Assets\Scripts\TouchToPlay.cs" />
     <None Include="Assets\Missile\Doc\ReadMe.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Submarine_repo/Submarine_Missles/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
