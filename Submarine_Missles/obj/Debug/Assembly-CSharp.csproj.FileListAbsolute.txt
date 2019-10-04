@@ -1,0 +1,2 @@
+E:\Submarine_repo\Submarine_Missles\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+E:\Submarine_repo\Submarine_Missles\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
