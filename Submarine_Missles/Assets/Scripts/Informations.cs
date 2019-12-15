@@ -15,12 +15,15 @@ public static class Informations
     public static float timp_asteptare_inceput;
     public static float distSpw1 = Screen.height;
     public static bool inceputptrepetare=true;
-    public static float Points_nr;
+    public static float Points_nr = 1000;
     public static bool canvasactive = false;
     public static bool GameOverCanvas = false;
-    public static float color;
+    public static float color=0;
     public static float point_this_round;
     public static bool reclama_continuare = false;
+    public static bool verif = true;
+    public static bool continue_verif = true;
+
 
 
     public static int High_Score

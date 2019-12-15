@@ -15,6 +15,8 @@ public class PlayAGAIN : MonoBehaviour
 
             Informations.canvasactive = false;
             Informations.point_this_round = 0;
+            Informations.continue_verif = true;
+            Debug.Log("PROSTULE");
 
         }
     }   

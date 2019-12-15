@@ -48,18 +48,15 @@ public class Stop_ : MonoBehaviour
 
             
 
-            if (Informations.reclama_continuare == true)
-            {
-                    jucator.detectCollisions = false;
-                if (intermediar >= detonationTime)
-                    jucator.detectCollisions = true;               
-                
-                
-            }
+          
 
             // if (Informations.HitSub == false ) // testeaza daca a lovit sau nu 
             //{
-            Destroy(col.gameObject);
+            if (Informations.verif == false)
+            { Destroy(jucator);
+                //Informations.verif = true;
+            }
+            col.gameObject.SetActive(false);
                 Destroy(transform.gameObject);
             //}
 

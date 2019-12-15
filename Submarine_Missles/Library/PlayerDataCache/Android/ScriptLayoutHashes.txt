@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/HP/Desktop/apk_submarine/tralala.46.apk
+C:/Users/HP/Desktop/apk_submarine/tralala.50.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Main.unity
@@ -201,9 +201,11 @@ ae91c545dea6ac849dd81c4b660c68ca Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 69167579cf7fcbb2676fc1e675963dcd Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+84903e828ef8e0a68d11087a1341aaf7 Assembly-CSharp.dll:.AfisarePoint_nr_start
 ce669872a2be11bc686ea22961d8a3bb Assembly-CSharp.dll:.FloatingJoystick
 8429f5e2e74458d387d20325476dffbf Assembly-CSharp.dll:.GunAim
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PlayContinue
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Play_home

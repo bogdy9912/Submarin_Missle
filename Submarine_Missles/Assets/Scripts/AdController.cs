@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
-
+using UnityEngine.SceneManagement;
 
 public class AdController : MonoBehaviour
 {
 
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -28,17 +28,45 @@ public class AdController : MonoBehaviour
     }
     public void reclame_rewardedVideo_GameOver()
     {
-        if (Informations.reclama_continuare == false)
+        if (Informations.continue_verif == true)
         {
-            if (Advertisement.IsReady("rewardedVideo"))
+            Informations.continue_verif = false;
+           
+
+            if (Informations.reclama_continuare == false)
             {
-                Advertisement.Show("rewardedVideo");
+                if (Advertisement.IsReady("rewardedVideo"))
+                {
+                    var options = new ShowOptions { resultCallback = HandleShowResult };
+                    Advertisement.Show("rewardedVideo", options);
+
+                }
+                Informations.reclama_continuare = true;
             }
-            Informations.reclama_continuare = true;
+            else
+            {
+                Informations.reclama_continuare = false;
+            }
         }
-        else
+    }
+    private void HandleShowResult(ShowResult result)
+    {
+        switch (result)
         {
-            Informations.reclama_continuare = false;
+            case ShowResult.Finished:
+                Debug.Log("The ad was successfully shown.");
+                //
+                // YOUR CODE TO REWARD THE GAMER
+                // Give coins etc.
+                Informations.canvasactive = false;
+               
+                    
+                    SceneManager.LoadScene(1);
+                
+                //Informations.verif = false;
+
+
+                break;
         }
     }
 
